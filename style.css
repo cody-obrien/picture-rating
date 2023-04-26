@@ -1,0 +1,19 @@
+.cards__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  justify-content: space-around;
+  flex-basis: fit-content;
+
+  /* grid-template-columns: repeat(auto-fit, minmax(min-content, max-content)); */
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 17px;
+  height: 80vh;
+}
+
+.cards__list img {
+  margin: 0 auto 0;
+  height: 100%;
+  max-width: 100%;
+}
